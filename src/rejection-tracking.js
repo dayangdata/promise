@@ -51,7 +51,7 @@ function enable(options) {
           // otherwise, wait 2 seconds to see if they get handled
           matchWhitelist(err, DEFAULT_WHITELIST)
             ? 100
-            : 2000
+            : 100
         ),
         logged: false
       };
